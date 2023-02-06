@@ -12,7 +12,7 @@ public class Main {
         System.out.println("\n\nПосле изменения состояния Observable (deadlineTracker)");
         System.out.println(myGroup.getDeadLines());
         System.out.println(bpi218.getDeadLines());
-        System.out.println("\n\nНу и пусть группа что-нибудь сделает");
+        System.out.println("\n\nНу и пусть группа myGroup что-нибудь сделает");
         myGroup.completeDeadLine();
         System.out.println(myGroup.getDeadLines());
         System.out.println(bpi218.getDeadLines());
